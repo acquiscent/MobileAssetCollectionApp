@@ -1,0 +1,77 @@
+﻿<Window x:Class="MobileAssetCollectionApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="400" Width="800" WindowState="Maximized" Name="mainwindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <DataGrid ItemsSource="{Binding AssetSetList}" SelectionMode="Single" SelectedItem="{Binding CurrentAssetSetItem}"  AutoGenerateColumns="False" CanUserResizeRows="False" CanUserDeleteRows="True" HeadersVisibility="Column">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="20*" Header="Asset Letter/Mobile Type">
+                        <DataGridTextColumn.Binding>
+                            <MultiBinding StringFormat="{}{0}.{1}">
+                                <Binding Path="AssetLetter"/>
+                                <Binding Path="DeviceType"/>
+                            </MultiBinding>
+                        </DataGridTextColumn.Binding>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn  Width="20*" Header="Dimensions">
+                        <DataGridTextColumn.Binding>
+                            <MultiBinding StringFormat="{}{0}x{1}">
+                                <Binding Path="ImageWidthPixels"/>
+                                <Binding Path="ImageHeightPixels"/>
+                            </MultiBinding>
+                        </DataGridTextColumn.Binding>
+                    </DataGridTextColumn>
+                    <DataGridTemplateColumn  Width="20*" Header="Attach .PNG|.jpg">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Grid HorizontalAlignment="Stretch">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="80*"/>
+                                        <ColumnDefinition Width="20*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{Binding Attach1FilesString}" TextWrapping="Wrap"/>
+                                    <Button Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Browse" Command="{Binding ElementName=mainwindow, Path=DataContext.Attach1BrowseCommand}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn  Width="20*" Header="Attach .svg|.pi|.ai">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Grid HorizontalAlignment="Stretch">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="80*"/>
+                                        <ColumnDefinition Width="20*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{Binding Attach2FilesString}" TextWrapping="Wrap"/>
+                                    <Button Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Browse" Command="{Binding ElementName=mainwindow, Path=DataContext.Attach2BrowseCommand}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn  Width="10*" Binding="{Binding AssetType}" Header="Asset Type"/>
+                    <DataGridTemplateColumn  Width="10*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Click to Preview" Command="{Binding ElementName=mainwindow, Path=DataContext.PreviewCommand}" Width="100"></Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80*"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="1" Content="Zip Images"  Command="{Binding ElementName=mainwindow, Path=DataContext.ZipCommand}"/>
+        </Grid>
+    </Grid>
+</Window>

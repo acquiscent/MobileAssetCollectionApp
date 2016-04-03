@@ -1,0 +1,110 @@
+Asset Letter,Phone Type,Asset Type,Dimension,Filename
+A,iPhone 4/4S/5/5C/5S/6.iPod touch 5th generation,App icon,120x120,appicon-60@2x.png
+B,iPhone 6 Plus,App Icon,180x180,appicon-60@3x.png
+C,iPad non-retina,App icon,76x76,appicon-76.png
+D,iPad retina,App icon,152x152,appicon-76@2x.png
+E,iPad Pro,App icon,167x167,appicon-83.5@2x.png
+F,Universal non-retina,Spotlight,40x40,appicon-Small-40.png
+G,Universal retina,Spotlight,80x80,appicon-Small-40@2x.png
+H,iPhone 6 Plus,Spotlight,120x120,appicon-Small-40@3x.png
+I,Universal non-retina,Settings,29x29,appicon-Small.png
+J,Universal retina,Settings,58x58,appicon-Small@2x.png
+K,iPhone 6 Plus,Settings,87x87,appicon-Small@3x.png
+L,iPhone 4/4S,Splash screen,640x960,Default@2x.png
+M,iPhone 5/5C/5S/iPod touch 5th generation,Splash screen,640x1136,Default-568h@2x.png
+N,iPhone 6,Splash screen,750x1334,Default-667h@2x.png
+O,iPhone 6 Plus landscape,Splash screen,2208x1242,Default-Landscape-736h@3x.png
+P,iPhone 6 Plus portrait,Splash screen,1242x2208,Default-Portrait-736h@3x.png
+Q,iPad non-retina landscape,Splash screen,1024x768,Default-Landscape.png
+R,iPad non-retina portrait,Splash screen,768x1024,Default-Portrait.png
+S,iPad retina landscape,Splash screen,2048x1536,Default-Landscape@2x.png
+T,iPad retina portrait,Splash screen,1536x2048,Default-Portrait@2x.png
+U,Any device with a non-retina display for ad-hoc builds,App list in iTunes,512x512,iTunesArtwork (no extension)
+V,Any device with a retina display for ad-hoc builds,App list in iTunes,1024x1024,iTunesArtwork@2x (no extension)
+W,iPhone/iPod non-retina,App icon,57x57,appicon.png
+X,iPhone/iPod retina (iOS 6 and prior),App icon,114x114,appicon@2x.png
+Y,iPad 1 & 2 (iOS 6 and prior),App icon,72x72,appicon-72.png
+Z,iPad 3 (iOS 6 and prior),App icon,144x144,appicon-72@2x.png
+AA,iPhone/iPod non-retina,Spotlight & settings,29x29,appicon-Small.png
+AB,iPhone/iPod retina (iOS 6 and prior),Spotlight & settings,58x58,appicon-Small@2x.png
+AC,iPad 1 & 2 (iOS 6 and prior),Spotlight & settings,50x50,appicon-Small-50.png
+AD,iPad Retina (iOS 6 and prior),Spotlight,100x100,appicon-Small-50@2x.png
+AE,iPad Retina (iOS 6 and prior),Settings,58x58,appicon-Small@2x.png
+AF,iPhone non-retina,Splash screen,320x480,Default.png
+AG,iPad 1 landscape,Splash screen,1024x768,Default-Landscape.png
+AH,iPad 1 portrait,Splash screen,768x1024,Default-Portrait.png
+AI,Large app icon,iTunesConnect,1024x1024,1024x1024_itunes.png
+AJ,iPhone 4/4S screenshot fullscreen landscape,iTunesConnect,960x640,960x640_itunes.png
+AK,iPhone 4/4S screenshot fullscreen,iTunesConnect,640x960,640x960_itunes.png
+AL,iPhone 4/4S screenshot no status bar,iTunesConnect,960x600,960x600_itunes.png
+AM,iPhone 4/4S screenshot no status bar,iTunesConnect,640x920,640x920_itunes.png
+AN,iPhone 5/5C/5S and iPod 5 screenshot,iTunesConnect,640x1136,640x1136_itunes.png
+AO,iPhone 5/5C/5S and iPod 5 screenshot,iTunesConnect,1136x640,1136x640_itunes.png
+AP,iPhone 5/5C/5S and iPod 5 screenshot no status bar,iTunesConnect,1136x600,1136x600_itunes.png
+AQ,iPhone 5/5C/5S and iPod 5 screenshot no status bar,iTunesConnect,640x1096,640x1096_itunes.png
+AR,iPhone 6 screenshot,iTunesConnect,750x1334,750x1334_itunes.png
+AS,iPhone 6 screenshot,iTunesConnect,1334x750,1334x750_itunes.png
+AT,iPhone 6 Plus screenshot,iTunesConnect,1242x2208,1242x2208_itunes.png
+AU,iPhone 6 Plus screenshot,iTunesConnect,2208x1242,2208x1242_itunes.png
+AV,iPad screenshot non-retina; fullscreen,iTunesConnect,768x1024,768x1024_itunes.png
+AW,iPad screenshot non-retina; fullscreen,iTunesConnect,1024x768,1024x768_itunes.png
+AX,iPad screenshot non-retina; no status bar,iTunesConnect,768x1004,768x1004_itunes.png
+AY,iPad screenshot non-retina; no status bar,iTunesConnect,1024x728,1024x728_itunes.png
+AZ,iPad screenshot retina; fullscreen,iTunesConnect,1536x2048,1536x2048_itunes.png
+BA,iPad screenshot retina; fullscreen,iTunesConnect,2048x1536,2048x1536_itunes.png
+BB,iPad screenshot,iTunesConnect,1536x2008,1536x2008_itunes.png
+BC,iPad screenshot,iTunesConnect,2048x1496,2048x1496_itunes.png
+BD,Android Mobile Portrait LDPI,Splash screen,320x426,320x426_default.png
+BE,Android Mobile Portrait MDPI,Splash screen,320x470,320x470_default.png
+BF,Android Mobile Portrait HDPI,Splash screen,480x640,480x640_default.png
+BG,Android Mobile Portrait XHPDI,Splash screen,720x960,720x960_default.png
+BH,Android Mobile Portrait XXHDPI,Splash screen,1080x1920,1080x1920_default.png
+BI,Android Mobile Portrait XXXHDPI,Splash screen,1440x2560,1440x2560_default.png
+BJ,Android Mobile Landscape LDPI,Splash screen,426x320,426x320_default.png
+BK,Android Mobile Landscape MDPI,Splash screen,470x320,470x320_default.png
+BL,Android Mobile Landscape HDPI,Splash screen,640x480,640x480_default.png
+BM,Android Mobile Landscape XHDPI,Splash screen,960x720,960x720_default.png
+BN,Android Mobile Landscape XXHDPI,Splash screen,1920x1080,1920x1080_default.png
+BO,Android Mobile Landscape XXXHDPI,Splash screen,2560x1440,2560x1440_default.png
+BP,Android Tablet Portrait LDPI,Splash screen,200x320,200x320_default.png
+BQ,Android Tablet Portrait MDPI,Splash screen,320x480,320x480_default.png
+BR,Android Tablet Portrait HDPI,Splash screen,480x800,480x800_default.png
+BS,Android Tablet Portrait XHDPI,Splash screen,720x1280,720x1280_default.png
+BT,Android Tablet Portrait XXHDPI,Splash screen,960x1600,960x1600_default.png
+BU,Android Tablet Portrait XXXHDPI,Splash screen,1280x1920,1280x1920_default.png
+BV,Android Tablet Portrait XXXHDPI,Splash screen,1800x2560,1800x2560_default.png
+BW,Android Tablet Landscape LDPI,Splash screen,320x200,320x200_default.png
+BX,Android Tablet Landscape MDPI,Splash screen,480x320,480x320_default.png
+BY,Android Tablet Landscape HDPI,Splash screen,800x480,800x480_default.png
+BZ,Android Tablet Landscape XHDPI,Splash screen,1280x720,1280x720_default.png
+CA,Android Tablet Landscape XXHDPI,Splash screen,1600x960,1600x960_default.png
+CB,Android Tablet Landscape XXXHDPI,Splash screen,1920x1280,1920x1280_default.png
+CC,Android Tablet Landscape XXXHDPI,Splash screen,2560x1800,2560x1800_default.png
+CD,Android Store App Icon,Launcher Icon,512x512,appstoreicon.png
+CE,Android Default,Launcher Icon,128x128,appicon.png
+CF,ldpi,Launcher Icon,36x36,36X36_icon.png
+CG,mdpi,Launcher Icon,48x48,48X48_icon.png
+CH,hdpi,Launcher Icon,72x72,72X72_icon.png
+CI,xhdpi,Launcher Icon,96x96,96X96_icon.png
+CJ,xxhdpi,Launcher Icon,144x144,144X144_icon.png
+CK,ldpi,Action Bar Icons,18x18,18x18_aicon.png
+CL,mdpi,Action Bar Icons,24x24,24x24_aicon.png
+CM,hdpi,Action Bar Icons,36x36,36x36_aicon.png
+CN,xhdpi,Action Bar Icons,48x48,48x48_aicon.png
+CO,xxhdpi,Action Bar Icons,72x72,72x72_aicon.png
+CP,ldpi,Notification Icons,18x18,18x18_nicon.png
+CQ,mdpi,Notification Icons,24x24,24x24_nicon.png
+CR,hdpi,Notification Icons,36x36,36x36_nicon.png
+CS,xhdpi,Notification Icons,48x48,48x48_nicon.png
+CT,xxhdpi,Notification Icons,72x72,72x72_nicon.png
+CU,ldpi,Contextual Icons,12x12,12x12_cicon.png
+CV,mdpi,Contextual Icons,16x16,16x16_cicon.png
+CW,hdpi,Contextual Icons,24x24,24x24_cicon.png
+CX,xhdpi,Contextual Icons,32x32,32x32_cicon.png
+CY,xxhdpi,Contextual Icons,48x48,48x48_cicon.png
+CZ,Android Store LDPI Screenshot,Screenshots,320x480,320x480_play.png
+DA,Android Store MDPI Screenshot,Screenshots,480x800,480x800_play.png
+DB,Android Store HDPI Screenshot,Screenshots,480x854,480x854_play.png
+DC,Optional,Promotional graphic,180x120,180x120_play.png
+DD,Required if you want to be featured in Google Play,Promotional graphic,1024x500,1024x500_play.png
+DE,TV Banner,Promotional graphic,1280x720,1280x720_play.png
