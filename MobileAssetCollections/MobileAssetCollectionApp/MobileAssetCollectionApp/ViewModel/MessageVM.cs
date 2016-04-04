@@ -64,6 +64,13 @@ namespace MobileAssetCollectionApp.ViewModel
             {
                 System.Windows.Clipboard.SetText(MessageString);
             }
+            if (obj != null)
+            {
+                if (obj.GetType() == typeof(MessageView))
+                {
+                    ((MessageView)obj).Close();
+                }
+            }
         }
     }
 }

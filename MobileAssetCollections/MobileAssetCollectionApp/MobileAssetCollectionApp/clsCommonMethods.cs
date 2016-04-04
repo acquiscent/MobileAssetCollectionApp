@@ -30,7 +30,7 @@ namespace MobileAssetCollectionApp
                         foreach (string str in openfiledialog.FileNames)
                         {
                             BitmapImage img = new BitmapImage(new Uri(str, UriKind.RelativeOrAbsolute));
-                            if (img.Width == width && img.Height == height)
+                            if (img.PixelWidth == width && img.PixelWidth == height)
                             {
                                 confirmed = true;
                                 returnValue = openfiledialog.FileNames.ToList();
